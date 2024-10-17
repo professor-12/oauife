@@ -14,7 +14,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "OAU eportal",
+    title: {
+        default: "Obafemi Awolowo Univeristy Portal",
+        template: "%s",
+    },
     description: "",
 };
 

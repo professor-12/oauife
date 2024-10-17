@@ -4,13 +4,16 @@ import SideBar from "../components/SideBar";
 
 const HomeLayout = ({ children }: PropsWithChildren) => {
     return (
-        <div className="min-h-screen bg-background flex w-full">
+        <div className="h-screen bg-background flex w-full">
             {/* SIDEBAR */}
-            <div className="w-1/6">
+            <div className="lg:w-1/6">
                 <SideBar />
             </div>
-            <div className="w-5/6">
-                <Header />
+
+            <div className="lg:w-5/6 overflow-y-auto">
+                <div className="sticky z-20 w-full top-0">
+                    <Header />
+                </div>
                 <main className="p-6">{children}</main>
             </div>
         </div>
