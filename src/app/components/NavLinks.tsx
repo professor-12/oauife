@@ -9,24 +9,67 @@ export const links = [
                 link: "https://eportal.oauife.edu.ng/undergraduatetasks.php",
                 svg: "",
             },
-            { name: "Post graduate", link: "", svg: "" },
-            { name: "Executive MBA", link: "", svg: "" },
+            {
+                name: "Post graduate",
+                link: "https://eportal.oauife.edu.ng/login.php",
+                svg: "",
+            },
+            {
+                name: "Executive MBA",
+                link: "https://eportal.oauife.edu.ng/login.php",
+                svg: "",
+            },
         ],
     },
     {
         name: "Staff",
         children: [
-            { name: "Undergraduate", link: "", svg: "" },
-            { name: "Post graduate", link: "", svg: "" },
-            { name: "Executive MBA", link: "", svg: "" },
+            {
+                name: "Staff login",
+                link: "https://eportal.oauife.edu.ng/login.php",
+                svg: "",
+            },
+
+            {
+                name: "Bursary",
+                link: "https://eportal.oauife.edu.ng/paymenttasks.php",
+                svg: "",
+            },
         ],
     },
     {
-        name: "Undergraduate",
+        name: "Other Links",
         children: [
-            { name: "Undergraduate", link: "", svg: "" },
-            { name: "Post graduate", link: "", svg: "" },
-            { name: "Executive MBA", link: "", svg: "" },
+            {
+                name: "Newly admitted students",
+                link: "https://eportal.oauife.edu.ng/login.php",
+                svg: "",
+            },
+            {
+                name: "PG starter form",
+                link: "https://eportal.oauife.edu.ng/pgstarter00.php",
+                svg: "",
+            },
+            {
+                name: "Stalites",
+                link: "https://eportal.oauife.edu.ng/login.php",
+                svg: "",
+            },
+            {
+                name: "Admission status",
+                link: "https://eportal.oauife.edu.ng/admissions.php",
+                svg: "",
+            },
+            {
+                name: "Medical Services",
+                link: "https://eportal.oauife.edu.ng/hrss_index.php",
+                svg: "",
+            },
+            {
+                name: "Computer Training",
+                link: "https://eportal.oauife.edu.ng/ctpresult1.php",
+                svg: "",
+            },
         ],
     },
 ] as const;
