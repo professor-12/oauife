@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const SideBar = () => {
     return (
-        <div className="w-full max-sm:hidden border-r  h-screen bg-white pt-2 p-4 max-sm:pr-0">
+        <div className="w-full  border-r  h-screen bg-white pt-2 p-4 max-sm:pr-0">
             <Link href="/home" className="w-full">
                 <div className="flex w-full justify-center items-center space-x-3">
                     <Image

@@ -10,14 +10,16 @@ const Header = () => {
                 <span className="max-sm:hidden">
                     Obafemi Awolowo University
                 </span>
-                <span className="sm:hidden text-3xl">
-                    <Image
-                        alt="Img"
-                        src="/oaulogo.png"
-                        width={40}
-                        height={35}
-                    />
-                </span>
+                <Link href={"/home"}>
+                    <span className="sm:hidden text-3xl">
+                        <Image
+                            alt="Img"
+                            src="/oaulogo.png"
+                            width={40}
+                            height={35}
+                        />
+                    </span>
+                </Link>
             </div>
             <p className="text-xl sm:hidden">OAU</p>
             <div className="sm:hidden">
