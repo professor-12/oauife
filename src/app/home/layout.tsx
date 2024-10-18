@@ -15,7 +15,7 @@ const HomeLayout = ({ children }: PropsWithChildren) => {
                     <Header />
                 </div>
                 <main className="p-3 sm:p-6">{children}</main>
-                <div className="sm:hidden bg-white">
+                <div className="sm:hidden mt-12 bg-white">
                     <Footer />
                 </div>
             </div>

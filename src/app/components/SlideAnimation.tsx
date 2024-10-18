@@ -25,7 +25,7 @@ const SlideAnimation = () => {
                     className="w-full bg-no-repeat bg-cover relative  h-full flex-shrink-0"
                 >
                     <div className="flex bg-black h-full bg-opacity-25 w-full justify-center items-center">
-                        <h2 className="xl:text-5xl lg:text-3xl text-2xl text-center font-mono font-semibold text-slate-300">
+                        <h2 className="xl:text-5xl text-3xl  text-center font-mono font-semibold text-slate-300">
                             Great Cidatel for Learning
                         </h2>
                     </div>
@@ -37,7 +37,7 @@ const SlideAnimation = () => {
                     className="w-full relative  h-full flex-shrink-0"
                 >
                     <div className="flex bg-black h-full bg-opacity-25 w-full justify-center items-center">
-                        <h2 className="xl:text-5xl lg:text-3xl text-2xl text-center font-mono  font-semibold text-slate-200">
+                        <h2 className="xl:text-5xl text-3xl  text-center font-mono  font-semibold text-slate-200">
                             Great Cidatel for Learning.
                         </h2>
                     </div>
