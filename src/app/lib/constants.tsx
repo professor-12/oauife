@@ -5,6 +5,7 @@ export const listofCArdContents = [
                 stroke="#FFFF"
                 fill="none"
                 strokeWidth="0"
+                className="group-hover:text-blue-800"
                 viewBox="0 0 24 24"
                 height="30px"
                 width="30px"
@@ -42,7 +43,8 @@ export const listofCArdContents = [
             <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
+                className="group-hover:text-blue-800"
                 viewBox="0 0 512 512"
                 height="30px"
                 width="30px"
@@ -59,7 +61,8 @@ export const listofCArdContents = [
             <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
+                className="group-hover:text-blue-800"
                 viewBox="0 0 640 512"
                 height="30px"
                 width="30px"
@@ -76,7 +79,8 @@ export const listofCArdContents = [
             <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
+                className="group-hover:text-blue-800"
                 viewBox="0 0 512 512"
                 height="30px"
                 width="30px"

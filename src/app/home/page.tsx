@@ -3,6 +3,11 @@ import Announcement from "../components/Announcement";
 import SlideAnimation from "../components/SlideAnimation";
 import { listofCArdContents } from "../lib/constants";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Home",
+};
 
 const HomePage = () => {
     return (

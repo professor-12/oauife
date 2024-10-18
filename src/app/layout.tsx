@@ -16,9 +16,12 @@ const geistMono = localFont({
 export const metadata: Metadata = {
     title: {
         default: "Obafemi Awolowo Univeristy Portal",
-        template: "%s",
+        template: "%s - Obafemi Awolow university",
     },
     description: "",
+    twitter: {
+        card: "summary_large_image",
+    },
 };
 
 export default function RootLayout({

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 import Footer from "../components/Footer";
 
+
 const HomeLayout = ({ children }: PropsWithChildren) => {
     return (
         <div className="h-screen overflow-y-hidden bg-background flex w-full">
@@ -18,6 +19,7 @@ const HomeLayout = ({ children }: PropsWithChildren) => {
                 <div className="sm:hidden mt-12 bg-white">
                     <Footer />
                 </div>
+               
             </div>
         </div>
     );
