@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className="flex max-lg:flex-col gap-5">
             <div className="lg:w-4/5">
                 <SlideAnimation />
-                <div className="mt-4 w-full grid n  gap-3 md:gird-cols-2  lg:grid-cols-4">
+                <div className="mt-4 w-full grid   gap-3 md:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4">
                     {listofCArdContents.map(({ Svg, body, link }) => {
                         return (
                             <Link
