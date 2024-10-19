@@ -4,9 +4,16 @@ import SlideAnimation from "../components/SlideAnimation";
 import { listofCArdContents } from "../lib/constants";
 import Link from "next/link";
 import { Metadata } from "next";
-
 export const metadata: Metadata = {
     title: "Home",
+    description: "",
+    twitter: {
+        card: "summary_large_image",
+    },
+    openGraph: {
+        type: "website",
+        description: "Obafemi Awolowo University E-portal",
+    },
 };
 
 const HomePage = () => {

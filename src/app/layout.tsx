@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
     },
+    openGraph: {
+        type: "website",
+        description: "Obafemi Awolowo University E-portal",
+    },
 };
 
 export default function RootLayout({
